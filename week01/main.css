@@ -1,75 +1,77 @@
-html, body{
+body{
     
     padding: 0;
     margin: 0;
-    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    box-sizing: content-box;
+    display: flex;
 }
 
 /* ----------------------THE MAIN SECTION-------------------- */
 main{
-    border: 4rem solid rgb(254, 221, 255);
+    border: 2rem solid #ffff;
     display: flex;
     flex-direction: row;
     background-color:rgb(254, 221, 255);
-    margin:2em;
+    width: 90rem;
     max-height: 100%;
-    padding: 0;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+
 }
 
 
 /*----------------- PERSONAL INFO ------------------*/
 img{
-    resize: horizontal;
+    cursor: pointer;
     margin: 1em;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     border: 1rem solid rgb(255, 228, 232) ;
     border-radius: 50%;
 }
 nav h3{
 
     color: white;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     text-align: center;
     font-family:serif;
 }
 
 main nav{
     align-items: center;
-    width: 400px;
+    width: 25rem;
     height: auto;
     background-color: rgb(216, 147, 159);
 }
 nav article{
     
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     flex-direction: row;
 }
 nav article p{
     margin: 0;
     color: #ffff;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
-    text-shadow: rgb(83, 82, 82) 1px 0 10px;
+    text-shadow: rgb(83, 82, 82) 0.0625rem 0 0.625rem;
 }
 nav span{
-    margin: 5px;
-    height: 150px;
-    border: 0.5px solid #ffffff;
+    margin: 0.3125rem;
+    height: 9.375rem;
+    border: 0.0313rem solid #ffffff;
 }
 
 nav hr{
     padding: 0;
     margin-top: 0;
-    margin-left: 25px;
-    width: 200px;
-    border: 0.5px solid white;
+    margin-left: 1.5625rem;
+    width: 12.5rem;
+    border: 0.0313rem solid white;
    }
     
  nav ul {
@@ -79,8 +81,8 @@ nav hr{
  nav ul li{
     margin-top: 1rem;
     padding: 0;
-    font-size: 20px;
-    text-shadow: rgb(83, 82, 82) 1px 0 10px;
+    font-size: 1.25rem;
+    text-shadow: rgb(83, 82, 82) 1px 0 0.625rem;
  }
  nav a:link{
    
@@ -109,17 +111,17 @@ nav hr{
  /*------------------GENERAL SECTION --------------------*/
 
  .name{
-    height: 90px;
-    margin-top:80px;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    padding-left:40px;
-    margin-left: -60px;
+    height: 5.625rem;
+    margin-top:5rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.125rem;
+    padding-left:2.5rem;
+    margin-left: -3.75rem;
     background-color: rgb(216, 147, 159);
 }
 section .name h1{
     font-family: serif;
-    font-size: 70px;
+    font-size: 4.375rem;
     color: white;
     padding: 0;
     margin: 0;}
@@ -132,12 +134,12 @@ section .name h1{
 section{
     background-color:rgb(136, 78, 89);
     width:100%;
-    padding-left: 60px;
+    padding-left: 3.75rem;
 }
 section .container{
     position: relative;
-    max-height: 560px;
-    margin-top: 90px;
+    max-height: 35rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
 
@@ -149,29 +151,28 @@ section .container div
     color: white;
 }
 .line{
-    margin-top: 60px;
-    height: 350px;
+    margin-top: 3rem;
+    height: 21.875rem;
     border: 1px solid #ffff;
 }
 .right{
-    padding-left:70px;
+    padding-left:5rem;
     
 }
 .left
 {
-    padding-right: 200px;
+    padding-right: 5rem;
 }
 
 
 h3{
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 0%;
 }
 section hr{
-    width: 150px;
+    width: 9.375rem;
     margin-left:0;
 }
 ol li{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
-    
