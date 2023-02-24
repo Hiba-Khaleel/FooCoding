@@ -125,7 +125,8 @@ section{
 @media (min-width: 320px)and (max-width:768px) {
 
     #grid-floats, #grid-flex {
-        padding: 1rem;
+        margin:0;
+        padding: 0;
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -135,7 +136,19 @@ section{
     .grid-item:last-child {
         grid-column: 1 / span 2;
     }
+   img{
+        width: 5rem;
+        height: 5rem;
+        padding: 0;
+        margin: 0;
+    }
+    h3{
+        font-size: 1.5rem;
+        
+    }
     .grid-item {
+       
+        margin: 0 auto;
        padding: 0;
     }
 }
