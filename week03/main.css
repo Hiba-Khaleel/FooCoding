@@ -228,7 +228,9 @@ nav a span{
   border-radius: 5rem;
   cursor: pointer;
 }
-
+.popular-stories{
+  max-width: 100%;
+}
 .popular-stories h2{
   font-family: 'Russo One', sans-serif;
    text-align: center;
@@ -240,6 +242,7 @@ nav a span{
   display: flex;
   flex-direction: row;
   padding: 1rem; 
+  max-width:100%;
 }
 .popularStories li h3{  
     padding-top: .5rem;
