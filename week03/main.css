@@ -7,6 +7,8 @@
     font-family: "Graphik Compact", sans-serif;
 }
 main{
+     display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   max-width: 100%;
 }
