@@ -1,13 +1,14 @@
 *,
 *:before,
-*:after {
+
+  *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Graphik Compact", sans-serif;
 }
 main{
-     display: flex;
+  display: flex;
   flex-direction: column;
   box-sizing: border-box;
   max-width: 100%;
@@ -15,12 +16,14 @@ main{
 header{
     font-family: "Graphik Compact", sans-serif;
     display: block;
+    
 }
 .main-nav{
-    width: 100%;
+    max-width: 100%;
     background-color: #f7f7f7;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    padding:0 3rem 0 3rem;  
 }
 .main-nav .left {
     text-align: left;
@@ -65,16 +68,15 @@ header{
     display: block;
     color: rgb(162, 161, 161);
     line-height:24px;
-    letter-spacing:normal;
-    word-spacing:0px;
+    
+    
 }
 
 .drop-down:hover .drop-menu {
     display: block;
 }
 .top li , .navUl li{
-    padding:.5rem;
-    padding-bottom: 0;
+    padding: 1rem;
     font-size: 1.3rem;
     color: rgb(144, 143, 143);
     transition:  ease-out 70ms;
@@ -88,6 +90,7 @@ nav{
     font-family: "Graphik Compact", sans-serif;
     display: flex;
     flex-direction: column ;
+   
 }
 .navUl li:hover{
     color: #000000;
@@ -95,10 +98,13 @@ nav{
 
 .upSide{
     display: flex;
-    padding-left: 3rem;
+    justify-content: space-between;
     height: 5rem;
     background-color: #fff;
     width: 100%;   
+    padding: 0 3rem 0 3rem;
+    
+    
 }
 .nav-logo{
   display: flex;
@@ -119,7 +125,7 @@ nav{
     padding-top: 1.5rem;
     display: flex;
     list-style-type: none;
-    padding-left: 20rem;
+   
 }
 nav .head-a{
     font-family:Graphic, sans-serif;
@@ -228,6 +234,7 @@ nav a span{
   border-radius: 5rem;
   cursor: pointer;
 }
+
 .popular-stories{
   max-width: 100%;
 }
@@ -237,12 +244,13 @@ nav a span{
    font-size: 2.5rem;
    padding: 2rem;
 }
+
 .popular-stories ul{
    
   display: flex;
   flex-direction: row;
   padding: 1rem; 
-  max-width:100%;
+  max-width: 99%;
 }
 .popularStories li h3{  
     padding-top: .5rem;
@@ -336,17 +344,17 @@ nav a span{
     align-items: center;
     background-color: #6644FF;
     width: 100%;
-    height: 30rem;
+    height: 28rem;
     margin-top: 6rem;
 }
 .formSection h2{
-   font-size: 5rem;
+   font-size: 4rem;
    font-family: 'Russo One', sans-serif;
-   font-weight: 800px;
+   font-weight: 700;
    padding: 2rem;
 }
 .formSection p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .formSection form .input-box{
@@ -715,5 +723,3 @@ align-items: center;
    
 
   }
-
-  
