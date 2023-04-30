@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <main>
+
+        <nav>    
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#myWork">My Work</a></li>
+                <li><a href="#about">About me</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <li><a href="#admin">Admin</a></li>
+                  </li> 
+            </ul>     
+        </nav>
+    
+    <div class="sections">
+        <section id="home">
+        
+        <img src="./images/avatar0.png" alt="Image description">
+
+            <div class="content">
+                <h2>Hi!<br> It's <span>Hiba Khaleel</span></h2>
+                <p>A front-end Developer with +3 months experience,
+                     with passion to make an interactive web designs and To prove that women are capable to being innovative</p>
+                <button class="btn">Contact me</button>
+                <div class="popup-container active">
+                  <h4>Reach to me</h4>
+                  <label for="email">Your message</label>
+                  <input
+                    type="textBox"
+                    name="email"
+                    class="input"
+                    placeholder="Write to me"
+                  />
+                  <button class="popup-btn">Send</button>
+                  <div class="close-icon">
+                    <i class="fas fa-times fa-2x">X</i>
+                  </div>
+                </div>
+            </div>
+        </section>
+      
+        <section id="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p> I am a front-end development student. I am passionate about creating responsive and user-friendly web applications that provide the best user experience possible. I have been studying web development for 3 months, and during that time, I have learned several programming languages and frameworks, including HTML, CSS, JavaScript.
+                    I am a quick learner and love to explore new technologies and programming languages. I am also a team player and enjoy collaborating with other developers to create amazing web applications. In my free time, I enjoy attending hackathons, reading tech blogs, and experimenting with new programming techniques.
+                    I am excited about the opportunity to apply my skills and knowledge to real-world projects and make a difference in the web development community.
+                    </p>
+              </div>
+              
+              <div class="skills-section">
+                <h2>My Skills</h2>
+                <ul>
+                  <li><img src="./images/html.png" alt=""></li>
+                  <li><img src="./images/css.png" alt=""></li>
+                  <li><img src="./images/js.png" alt=""></li>
+                  <li><img src="./images/c.png" alt=""></li>
+                  <li><img src="./images/python.jpg" alt=""></li>
+                </ul>
+              </div>
+            
+              <div class="schools-section">
+                <h2>My Schools</h2>
+                <ul>
+                  <li><img src="./images/foocafe.svg" alt=""></li>
+                  <li><img src="./images/hermods.svg" alt=""></li>
+                  
+                </ul>
+              </div>
+         
+        </section>
+      
+        <section id="myWork">
+            <h2>My Work</h2>
+          
+            <div class="project">
+             
+              <div class="project-details">
+                <h3>Books Library</h3>
+
+                <p>In this project I'm showing the books names by an object turned by dom manipulation</p>
+                <div class="project-buttons">
+                  <a href="path/to/project1-code" target="_blank" class="btn-code">View Code</a>
+                  <a href="path/to/project1-website" target="_blank" class="btn-website">View Website</a>
+                </div>
+              </div>
+              <div class="project-img">
+                <img src="./images/reafingList3.jpg" alt="Project 1">
+              </div>
+            </div>
+          
+            <div class="project">
+              
+              <div class="project-details">
+                <h3>pokimon</h3>
+                <p>this project is done by JSon in JS</p>
+               
+                <div class="project-buttons">
+                  <a href="path/to/project2-code" target="_blank" class="btn-code">View Code</a>
+                  <a href="path/to/project2-website" target="_blank" class="btn-website">View Website</a>
+                </div>
+              </div>
+              <div class="project-img">
+                <img src="./images/pokimon.jpg" alt="Project 2">
+              </div>
+            </div>
+            <div class="git-details">
+              <div class="details">
+              <h3>Show more?</h3>
+              <p>There is more projects on git hub, you can show it</p>
+              <button class="show">Show more</button>
+            </div>
+          
+            <div class="project project-git">
+              
+            </div>
+          </div>
+
+
+            
+          
+          </section>
+          
+      
+          <section id="contact">
+            <h2>Contact Me</h2>
+          
+            <div class="contact-details">
+              <div class="contact-left">
+                <img src="./images/avatar0.png" alt="Profile Image">
+                <h3>Hiba Khaleel</h3>
+                <p>Linero torg - Lund City 22476</p>
+              </div>
+              <div class="contact-right">
+                <a href="https://www.linkedin.com/in/hiba-khaleel-b462051b7/" target="_blank"><img src="./images/linkedin1.png" alt="">Linkedin</a>
+                <a href="https://github.com/Hiba-Khaleel" target="_blank"><img src="./images/github.png" alt="">Github</a>
+                <a href="mailto:your-email@gmail.com"><i class="far fa-envelope"></i></a>
+              </div>
+            </div>
+          
+          </section>
+          <section id="admin">
+            <h2>Admin Panel</h2>
+          
+            <div class="admin-form">
+              <form>
+                <div class="form-group">
+                  <label for="username">Username:</label>
+                  <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                  <button type="submit">Login</button>
+                </div>
+              </form>
+            </div>
+          
+          </section> 
+      </div>
+    </main>
+
+<script src="app.js"></script>
+</body>
+</html>
