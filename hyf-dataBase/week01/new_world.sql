@@ -6,7 +6,7 @@ WHERE Population > 8000000;
 -- 2
 SELECT name
 FROM country
-WHERE name = 'land';
+WHERE name like'%land%';
 -- 3
 SELECT name
 FROM city
@@ -20,9 +20,10 @@ SELECT name
 FROM country
 ORDER BY SurfaceArea DESC;
 -- 6
-SELECT name
-FROM city
-WHERE CountryCode= 'NLD';
+select city.Name, country.Name from city
+join country
+on city.CountryCode=country.code
+ where country.Name="Netherlands";
 -- 7
 SELECT Population
 FROM city
